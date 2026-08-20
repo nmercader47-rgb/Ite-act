@@ -4,72 +4,69 @@
 
 body {
     margin: 0;
-    background-color: #f5edbd;
     font-family: Arial, sans-serif;
+    background-color: #f5f0ff;
+    color: #333;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
-    padding: 20px;
-    color: #6b5260;
-    font-size: 24px;
-    background-color: #f3eab8;
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 30px 20px;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #b9a84f;
-    margin: 12px 0;
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
 }
 
 section {
-    text-align: center;
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.box {
-    width: 88%;
-    max-width: 350px;
-    margin: 15px auto;
-    padding: 20px 18px;
-    background-color: #2d2814;
-    border-radius: 8px;
-    color: white;
+h2 {
+    color: #6a0dad;
+    border-bottom: 2px solid #d8b4fe;
+    padding-bottom: 10px;
 }
 
-.box h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 16px;
-}
-
-.box img {
-    width: 105px;
-    height: 105px;
+img {
+    width: 170px;
+    height: 130px;
     object-fit: cover;
-    border-radius: 50%;
-    margin: 8px auto;
-}
-
-.music h3,
-.video-box h3 {
-    font-size: 13px;
-    margin: 18px 0 5px;
-}
-
-.music p {
-    font-size: 10px;
-    margin: 0 0 8px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #8e44ad;
 }
 
 audio {
-    width: 100%;
-    height: 35px;
+    width: 250px;
+    margin: 10px;
 }
 
 video {
-    width: 100%;
-    max-width: 280px;
-    height: 150px;
-    margin-bottom: 10px;
+    width: 280px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #8e44ad;
 }
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
